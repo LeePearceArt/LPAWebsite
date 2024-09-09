@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "jennyosullivan.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -71,12 +71,13 @@
     "dppsSwitcher": true,
     "spellingSwitch": true,
     "site_lang": "en",
-    "global_before_html": "",
+    "global_before_html": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-THM2PS8T');</script>\n<!-- End Google Tag Manager -->",
     "global_header_custom": "",
     "witsec-white-label": true,
     "witsec-search": false,
-    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-86011385-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-86011385-1');\n</script>\n",
-    "publishChangesOnly": false
+    "google-analytics": "",
+    "publishChangesOnly": false,
+    "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-THM2PS8T\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n"
   },
   "pages": {
     "index.html": {
@@ -4947,7 +4948,7 @@
     },
     "jennyosullivan.html": {
       "settings": {
-        "title": "Jenny O'Sullivan",
+        "title": "Jenny",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "<script>\n        // Get all image elements in the section\n        const images = document.querySelectorAll('img');\n\n        // Add an event listener to each image element\n        images.forEach((image) => {\n            image.addEventListener('contextmenu', (e) => {\n                // Prevent the default context menu from appearing\n                e.preventDefault();\n            });\n        });\n    </script>",
